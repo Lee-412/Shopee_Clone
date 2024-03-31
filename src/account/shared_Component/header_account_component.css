@@ -1,0 +1,19 @@
+.Container {
+    background-color: white;
+
+}
+
+.HeaderLogin {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    height: 70px;
+}
+
+.HeaderLogin span {
+    color: black;
+    font-size: 1, 5rem;
+}

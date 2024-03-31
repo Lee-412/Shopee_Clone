@@ -1,0 +1,167 @@
+.Container {
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateZ(0);
+    z-index: 100;
+
+}
+
+.Header {
+    background-color: #ee4d2d;
+
+}
+
+/* Bottom Header */
+
+.bottomHeader {
+    display: flex;
+    /* justify-content: center;*/
+    align-items: center;
+    align-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: start;
+    flex-direction: row;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+    white-space: 1px;
+}
+
+.avatar span {
+    margin-left: 5px;
+    ;
+}
+
+.searchBar {
+    display: flex;
+    margin-left: 50px;
+    width: 80%;
+}
+
+.search-custom {
+    border-radius: 0px;
+}
+
+/*Topheader*/
+
+.topHeader {
+    display: flex;
+    /* justify-content: center;*/
+    align-items: center;
+    align-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.optionLine {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.linkOptionLine {
+    border-right: 1px solid gray;
+    text-decoration: none;
+    color: white;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-right: 8px;
+    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif
+}
+
+.linkOptionLine:hover {
+    opacity: 0.7;
+}
+
+.connectOptionLine {
+    color: white;
+    margin-right: 4px;
+
+}
+
+.nav-bar-space {
+    flex: 1;
+}
+
+/*Button*/
+.custom-button-ins,
+.custom-button-face {
+    background-color: #ee4d2d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.custom-button-ins:hover::after {
+    content: "kết nối với instagram";
+    position: absolute;
+    bottom: -50px;
+    left: 30%;
+    transform: translateX(-30%);
+    background-color: #080808;
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.custom-button-face:hover::after {
+    content: "kết nối với facebook";
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-30%);
+    background-color: #080808;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+/*Button Right header*/
+.custom-button-header {
+    background-color: #ee4d2d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    text-align: center;
+}
+
+.custom-button-header:hover {
+    opacity: 0.9;
+    background-color: #ee4d2d;
+}
+
+/*Link light header*/
+
+.accountLink {
+    border-right: 1px solid gray;
+    text-decoration: none;
+    color: white;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-right: 8px;
+    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei, Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體, Microsoft JhengHei UI, Microsoft JhengHei, sans-serif
+}
+
+.accountLink:hover {
+    opacity: 0.8;
+}
